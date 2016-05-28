@@ -1,0 +1,25 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Zadanie 3.1</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Zadanie 3.1</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Zadanie 3.1.vcxproj" File="Zadanie 3.1.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">Zadanie 3.1.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Centrala.cpp">Centrala.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Abonent.cpp">Abonent.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Centrala.h">Centrala.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Abonent.h">Abonent.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
